@@ -55,6 +55,14 @@ GROUP BY d.department
 ORDER BY total_appointments DESC;
 
 
-SELECT gender, COUNT(*) AS total_patients
+SELECT gender, COUNT(*) AS total_patients 
 FROM patients
 GROUP BY gender;
+
+
+select first_name 
+from patients
+where city = 'mumbai';
+
+
+
